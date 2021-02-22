@@ -1,0 +1,67 @@
+<div class="row">
+  <h3 class="header">Payment Method</h3>
+  <div style="padding: 5px;">
+    
+    <div class="main-container">
+      <form action="https://gateway-backbase.uxlztizplez.info:5443/mcb-payment/index#/">
+        
+        <div>
+          <h3 class="text-blue">Select Payment Option</h3>
+        </div>
+        <div>
+          <div>
+            <label class="radio-button">
+              <input type="radio" class="radio-button__input" id="choice1-2" name="choice1">
+              <span class="radio-button__control"></span>
+              <span class="radio-button__label">Internet Banking OR Juice</span>
+            </label>
+          </div>
+          <div>
+            <label class="radio-button">
+              <input type="radio" class="radio-button__input" id="choice1-2" name="choice1">
+              <span class="radio-button__control"></span>
+              <span class="radio-button__label">Direct Bank Deposit</span>
+            </label>
+          </div>
+          <div>
+            <label class="radio-button">
+              <input type="radio" class="radio-button__input" id="choice1-2" name="choice1">
+              <span class="radio-button__control"></span>
+              <span class="radio-button__label">Credit Card</span>
+            </label>
+          </div>
+          <div>
+            <label class="radio-button">
+              <input type="radio" class="radio-button__input" id="choice1-2" name="choice1">
+              <span class="radio-button__control"></span>
+              <span class="radio-button__label">MCB Direct Pay</span>
+            </label>
+          </div>
+        </div>
+
+        <p class="text-blue">Booking Summary</p>
+        <div>
+          <div class="row"><span class="left">Subtotal</span> <span class="right">Rs. 16,458.00</span></div>
+          <div class="row"><span class="left">Rewards Point</span> <span class="right">1645 Points</span></div>
+          <div class="row"><span class="left"><strong>Total</strong></span> <span class="right" style="color:brown;"><strong>Rs. 16,458.00</strong></span></div>
+        </div>
+
+
+        <input type="submit" value="Complete Order" class="btn">
+      </form>
+    </div>
+  </div>
+</div>
+<div style="    text-align: center;
+position: fixed;
+left: 0;
+right: 0;
+top: 0;
+bottom: 0;
+width: 100vw;
+height: 100vh;
+background-color: #fff;" *ngIf="status == 'true'">
+<h2>Mari Deal Ltd.</h2>
+  <i class="fa fa-check-circle" aria-hidden="true" style="font-size: 30px; color: #0f0;margin-top: 100px;"></i>
+  <p>Payment Completed</p>
+</div>
